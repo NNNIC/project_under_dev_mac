@@ -707,6 +707,9 @@
                             <constraint firstItem="P8N-SG-mTO" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="s47-Qs-A3W"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label_clicked_outlet" destination="laR-Wd-bAC" id="UKO-bz-nwB"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
