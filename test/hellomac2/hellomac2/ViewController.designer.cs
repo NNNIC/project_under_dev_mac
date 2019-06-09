@@ -6,7 +6,7 @@
 //
 using Foundation;
 
-namespace hellomac
+namespace hellomac2
 {
     [Register("ViewController")]
     partial class ViewController

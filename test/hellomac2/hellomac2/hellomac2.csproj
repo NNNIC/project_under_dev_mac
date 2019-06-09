@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EA6490B3-D1C8-4195-8AEE-DBA37F55BB7A}</ProjectGuid>
+    <ProjectGuid>{81FEA5AE-C0B7-4FB2-8C41-C487C6ED8A69}</ProjectGuid>
     <ProjectTypeGuids>{A3F8F2AB-B479-4A4A-A458-A89E7DC349F1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>hellomac</RootNamespace>
-    <AssemblyName>hellomac</AssemblyName>
+    <RootNamespace>hellomac2</RootNamespace>
+    <AssemblyName>hellomac2</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkIdentifier>Xamarin.Mac</TargetFrameworkIdentifier>
     <MonoMacResourcePrefix>Resources</MonoMacResourcePrefix>

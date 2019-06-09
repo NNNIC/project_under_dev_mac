@@ -1,7 +1,7 @@
 ﻿using AppKit;
 using Foundation;
 
-namespace hellomac
+namespace hellomac2
 {
     [Register("AppDelegate")]
     public class AppDelegate : NSApplicationDelegate

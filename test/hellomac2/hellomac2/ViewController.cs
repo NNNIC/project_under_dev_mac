@@ -3,7 +3,7 @@
 using AppKit;
 using Foundation;
 
-namespace hellomac
+namespace hellomac2
 {
     public partial class ViewController : NSViewController
     {

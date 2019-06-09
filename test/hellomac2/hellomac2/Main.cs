@@ -1,6 +1,6 @@
 ﻿using AppKit;
 
-namespace hellomac
+namespace hellomac2
 {
     static class MainClass
     {
