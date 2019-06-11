@@ -9,18 +9,21 @@ using System.CodeDom.Compiler;
 
 namespace hellomac2
 {
-	[Register ("ViewController")]
-	partial class ViewController
-	{
-		[Outlet]
-		AppKit.NSTextField label_clicked_outlet { get; set; }
-		
-		void ReleaseDesignerOutlets ()
-		{
-			if (label_clicked_outlet != null) {
-				label_clicked_outlet.Dispose ();
-				label_clicked_outlet = null;
-			}
-		}
-	}
+    [Register ("ViewController")]
+    partial class ViewController
+    {
+        [Outlet]
+        AppKit.NSTextField label_clicked_outlet { get; set; }
+
+        [Action ("button_clickme_action:")]
+        partial void button_clickme_action (Foundation.NSObject sender);
+        
+        void ReleaseDesignerOutlets ()
+        {
+            if (label_clicked_outlet != null) {
+                label_clicked_outlet.Dispose ();
+                label_clicked_outlet = null;
+            }
+        }
+    }
 }
